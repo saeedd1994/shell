@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'shell';
+  cli:string = '"@angular/cli": "~13.2.5"';
+  core:string = '"@angular/cli": "~13.2.5"'
 }
